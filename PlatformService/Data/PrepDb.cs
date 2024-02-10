@@ -27,6 +27,8 @@ namespace PlatformService.Data
                     new Platform() { Name = "Dot Net", Publisher = "Microsoft", Cost = "Free" },
                     new Platform() { Name = "Kubernetes", Publisher = "Cloud Native", Cost = "Free" }
                 );
+
+                context.SaveChanges();
             }
             Console.WriteLine("Already have data - not seeding.");
         }
