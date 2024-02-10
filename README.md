@@ -7,5 +7,13 @@
 - Create/Initialize Project
 
 ```sh
-dotnet new webapi PlatformService
+dotnet new webapi -n PlatformService
+```
+
+</br>
+
+#### Dependencies
+
+```
+
 ```
