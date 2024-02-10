@@ -137,3 +137,5 @@
 /Users/ej/Desktop/ASP.Net_Starter/PlatformService/obj/Debug/net8.0/PlatformService.pdb
 /Users/ej/Desktop/ASP.Net_Starter/PlatformService/obj/Debug/net8.0/PlatformService.genruntimeconfig.cache
 /Users/ej/Desktop/ASP.Net_Starter/PlatformService/obj/Debug/net8.0/ref/PlatformService.dll
+/Users/ej/Desktop/ASP.Net_Starter/PlatformService/bin/Debug/net8.0/AutoMapper.dll
+/Users/ej/Desktop/ASP.Net_Starter/PlatformService/bin/Debug/net8.0/AutoMapper.Extensions.Microsoft.DependencyInjection.dll

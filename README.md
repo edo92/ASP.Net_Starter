@@ -20,7 +20,7 @@ dotnet add package <PACKAGE_NAME>
 
 #### Dependencies
 
-- `Microsoft.Extensions.DependencyInjection` // Repalce:Depricated
+- `AutoMapper.Extensions.Microsoft.DependencyInjection` // Repalce:Depricated
 - `package Microsoft.EntityFrameworkCore.Design`
 - `Microsoft.EntityFrameworkCore.InMemory`
 - `Microsoft.EntityFrameworkCore.SqlServer`
@@ -29,4 +29,4 @@ dotnet add package <PACKAGE_NAME>
 
 #### Issues
 
-- Replace Depricated Library (`Microsoft.Extensions.DependencyInjection`)
+- Replace Depricated Library (`AutoMapper.Extensions.Microsoft.DependencyInjection`)
