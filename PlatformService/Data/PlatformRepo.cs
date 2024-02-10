@@ -29,15 +29,9 @@ namespace PlatformService.Data
         }
 
 
-        public Platform GetPlatformById(int id)
+        public Platform? GetPlatformById(int id)
         {
-            var plat = _context.Platforms.FirstOrDefault(p => p.Id == id);
-            if (plat == null)
-            {
-                throw new ArgumentNullException(nameof(plat));
-            }
-
-            return plat;
+            return _context.Platforms.FirstOrDefault(p => p.Id == id);
         }
 
 
