@@ -1,6 +1,5 @@
 apiVersion: apps/v1
 kind: Deployment
-
 metadata:
   name: platforms-depl
 
@@ -9,10 +8,12 @@ spec:
   selector:
     matchLabels:
       app: platformservice
+
   template:
     metadata:
       labels:
         app: platformservice
+
     spec:
       containers:
         - name: platformservice

@@ -7,13 +7,13 @@
 - Create/Initialize Project
 
 ```sh
-dotnet new webapi -n PlatformService
+ dotnet new webapi -n PlatformService
 ```
 
 - Add Package to Project
 
 ```sh
-dotnet add package <PACKAGE_NAME>
+ dotnet add package <PACKAGE_NAME>
 ```
 
 </br>
@@ -24,6 +24,22 @@ dotnet add package <PACKAGE_NAME>
 - `package Microsoft.EntityFrameworkCore.Design`
 - `Microsoft.EntityFrameworkCore.InMemory`
 - `Microsoft.EntityFrameworkCore.SqlServer`
+
+</br>
+
+#### Kubernates Local Deployment
+
+- Deploy Kubernates
+
+```sh
+ kubectl apply -f platforms-depl.yaml
+```
+
+- Delete Kubernates
+
+```sh
+ kubectl delete deployment platforms-depl
+```
 
 </br>
 
