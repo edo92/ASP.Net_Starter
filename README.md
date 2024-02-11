@@ -4,10 +4,16 @@
 
 #### Commands Used
 
-- Create/Initialize Project
+- Create/Initialize Platform Service
 
 ```sh
  dotnet new webapi -n PlatformService
+```
+
+- Create/Initialize Command Service
+
+```sh
+ dotnet new webapi -n CommandsService
 ```
 
 - Add Package to Project
@@ -18,12 +24,21 @@
 
 </br>
 
-#### Dependencies
+#### Dependencies (Platform Service)
 
 - `AutoMapper.Extensions.Microsoft.DependencyInjection` // Repalce:Depricated
-- `package Microsoft.EntityFrameworkCore.Design`
+- `Microsoft.EntityFrameworkCore.Design`
 - `Microsoft.EntityFrameworkCore.InMemory`
 - `Microsoft.EntityFrameworkCore.SqlServer`
+
+</br>
+
+#### Dependencies (Commands Service)
+
+- `AutoMapper.Extensions.Microsoft.DependencyInjection` // Repalce:Depricated
+- `Microsoft.EntityFrameworkCore`
+- `Microsoft.EntityFrameworkCore.Design`
+- `Microsoft.EntityFrameworkCore.InMemory`
 
 </br>
 
