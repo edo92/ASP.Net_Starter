@@ -35,10 +35,16 @@
  kubectl apply -f platforms-depl.yaml
 ```
 
-- Delete Kubernates
+- Delete Deployment
 
 ```sh
  kubectl delete deployment platforms-depl
+```
+
+- Delete Service
+
+```sh
+ kubectl delete service platformnpservice-srv
 ```
 
 </br>
