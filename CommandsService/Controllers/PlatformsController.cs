@@ -11,7 +11,6 @@ namespace CommandsService.Controllers
 
         }
 
-
         [HttpPost]
         public ActionResult TestInboundConnection()
         {
