@@ -59,6 +59,12 @@
  kubectl rollout restart deployment commands-depl
 ```
 
+- Kubernates Ingress Nginx
+
+```sh
+ kubectl apply -f https://raw.githubusercontent.com/kubernetes/ingress-nginx/controller-v1.8.2/deploy/static/provider/aws/deploy.yaml
+```
+
 - Delete Services
 
 ```sh
