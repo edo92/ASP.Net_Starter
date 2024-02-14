@@ -52,16 +52,33 @@
  kubectl apply -f platforms-depl.yaml
 ```
 
-- Delete Deployment
+- Force Kubernates to Restart with Latest Image
+
+```sh
+ kubectl rollout restart deployment platforms-depl
+ kubectl rollout restart deployment commands-depl
+```
+
+- Delete Services
 
 ```sh
  kubectl delete deployment platforms-depl
+ kubectl delete service platformnpservice-srv
 ```
 
-- Delete Service
+- Deploy all
 
 ```sh
- kubectl delete service platformnpservice-srv
+ kubectl apply -f platforms-depl.yaml
+ kubectl apply -f commands-depl.yaml
+ kubectl apply -f platforms-np-srv.yaml
+```
+
+- Delete All
+
+```sh
+ kubectl delete deploy --all -A
+ kubectl delete service --all
 ```
 
 </br>
