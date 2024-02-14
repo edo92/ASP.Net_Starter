@@ -44,22 +44,22 @@
 
 </br>
 
-#### Kubernates Local Deployment
+#### Kubernetes Local Deployment
 
-- Deploy Kubernates
+- Deploy Kubernetes
 
 ```sh
  kubectl apply -f platforms-depl.yaml
 ```
 
-- Force Kubernates to Restart with Latest Image
+- Force Kubernetes to Restart with Latest Image
 
 ```sh
  kubectl rollout restart deployment platforms-depl
  kubectl rollout restart deployment commands-depl
 ```
 
-- Kubernates Ingress Nginx
+- Kubernetes Ingress Nginx
 
 ```sh
  kubectl apply -f https://raw.githubusercontent.com/kubernetes/ingress-nginx/controller-v1.8.2/deploy/static/provider/aws/deploy.yaml
@@ -91,6 +91,7 @@
 
 ```sh
  kubectl get pods --namespace=ingress-nginx
+ kubectl get services --namespace=ingress-nginx
 ```
 
 </br>
