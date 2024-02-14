@@ -4523,11 +4523,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/ej/Desktop/ASP.Net_Starter/PlatformService/PlatformService.csproj",
+      "projectUniqueName": "/Users/ej/Desktop/Apps/ASP.Net/ASP.Net_Starter/PlatformService/PlatformService.csproj",
       "projectName": "PlatformService",
-      "projectPath": "/Users/ej/Desktop/ASP.Net_Starter/PlatformService/PlatformService.csproj",
+      "projectPath": "/Users/ej/Desktop/Apps/ASP.Net/ASP.Net_Starter/PlatformService/PlatformService.csproj",
       "packagesPath": "/Users/ej/.nuget/packages/",
-      "outputPath": "/Users/ej/Desktop/ASP.Net_Starter/PlatformService/obj/",
+      "outputPath": "/Users/ej/Desktop/Apps/ASP.Net/ASP.Net_Starter/PlatformService/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/ej/.nuget/NuGet/NuGet.Config"

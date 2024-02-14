@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Ib1v5Zvfg4vRfimmfoewOEizRostLuQo4DZbD0WR1d0kSI4KPAznqVU7C/CK8CnGIBHNbBtkxybqEKT4yN7G8g==",
+  "dgSpecHash": "jG+4Kb8MiU77BFoQojHeF2iu2VK/v81gkTLjVibKJkRPz5IIAPVhNve/ilOoqfaPqV9+GqTacwUkFBnMPcSw2w==",
   "success": true,
-  "projectFilePath": "/Users/ej/Desktop/ASP.Net_Starter/PlatformService/PlatformService.csproj",
+  "projectFilePath": "/Users/ej/Desktop/Apps/ASP.Net/ASP.Net_Starter/PlatformService/PlatformService.csproj",
   "expectedPackageFiles": [
     "/Users/ej/.nuget/packages/automapper/12.0.1/automapper.12.0.1.nupkg.sha512",
     "/Users/ej/.nuget/packages/automapper.extensions.microsoft.dependencyinjection/12.0.1/automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
