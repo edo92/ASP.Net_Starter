@@ -87,6 +87,12 @@
  kubectl delete service --all
 ```
 
+- Kubnernates namespace lookup
+
+```sh
+ kubectl get pods --namespace=ingress-nginx
+```
+
 </br>
 
 #### Issues
